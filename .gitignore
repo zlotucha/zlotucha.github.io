@@ -1,0 +1,5 @@
+# IDE and editors
+/.idea
+
+# Ignoruje plik html
+*.html
