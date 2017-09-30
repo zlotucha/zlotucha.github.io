@@ -2,4 +2,4 @@
 /.idea
 
 # Ignoruje KATALOG
-.idea
+*.txt
