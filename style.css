@@ -4,10 +4,17 @@ body {
     margin: 0;
 }
 
+.me-photo {
+    margin: 30px auto 0;
+    display: block;
+}
+
 .hero-subtitle {
     text-align: center;
     font-size: 25px;
     color: white;
+    z-index: 2;
+    transform: translateY(-50%);
 }
 
 .hero-title {
@@ -33,12 +40,18 @@ body {
 .undersecond-title {
     /*background: rgba(0, 0, 0, 0.1);*/
     /*border: 1px solid;*/
+    margin: 30px auto 0;
+    display: block;
     text-align: left;
     font-size: 26px;
     color: black;
     font-weight: 100;
     list-style-type: circle;
     list-style-color: rgba(79, 79, 79, 0.22);
+}
+
+.footer {
+    text-align: center;
 }
 .homepage-hero-module {
     border-right: none;
@@ -59,7 +72,7 @@ body {
 header {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 30%;
     z-index: 1;
     transform: translateY(-50%);
 }
@@ -84,6 +97,7 @@ header {
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
+    transform: translate(-50^,-60^);
 }
 .video-container video {
     position: absolute;
